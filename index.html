@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>약관 동의</title>
+    <style>
+        table, tr,th,td {
+            border: solid 1px black;
+            border-collapse: collapse;
+            padding: 8px;
+            h1 {
+                color: black;
+            }
+             
+            li {
+                list-style-type: square;
+            }
+        }
+
+        li {
+            list-style-type: none;
+        }
+        #menu {
+            float: right;
+            font-size: 14px;
+            margin-top: 20px;
+        }
+        #menu li {
+            display: inline;
+        }
+        .item {
+            margin: 0 20px 0 20px;
+        }
+
+        #god {
+            text-align: center;
+            font-size: 30px;
+            margin-top: 20px;
+            list-style: right;
+            li { display: inline-block;}
+    }
+    button {
+        position: relative;
+        top: 360px;
+        right: 50px;
+    }
+
+    </style>
+</head>
+<body>
+<ul id="god">
+    <li class="item">슈퍼딜</li>
+    <li class="item">베스트</li>
+    <li class="item">고객센터</li>
+    <li class="item">기업 소개</li>
+</ul>
+
+<ul id="menu">
+    <li class="item"><a href='exlogin.htm'>로그인</a></li>
+    <li class="item">회원가입</li>
+</ul>
+
+    <table>
+    <h1>회원가입</h1>
+        <tr><th><h2>서비스 이용 약관</h2></th></tr>
+           <th> <p>제1조(목적) 이 고시는 「전자정부법」 제21조 및 같은 법 시행령 제17조에 따라 <br>
+                전자적 대민서비스의 편의성과 효율성을 높이기 위하여 민간서비스를 활용하는 데 
+                있어서 필요한 사항을 규정함을 
+                <br>목적으로 한다.</p>
+                <input type="radio" name="service_agreement" value="agree" required>
+                서비스 약관에 동의합니다.
+                <input type="radio" name="service_agreement" value="disagree" required>
+                서비스 약관에 동의하지 않습니다.
+            </th>
+        </table>
+        <table>
+            <tr><th><h3>개인정보 수집 및 이용 동의</h3></th></tr>
+           <th> <p>개인정보의 수집 및 이용목적</p>
+            <ul>
+                <li>회원제 서비스 이용에 따른 본인확인, 개인식별, 가입의사 확인, 고지사항 전달, 홈페이지 이용 만족도 조사 등</li>
+                <li>필수 항목: 아이디(이메일 주소), 비밀번호, 이름, 휴대전화 번호, 생년월일, 성별</li>
+                <li>선택 항목: 주소, 집 전화번호, 이메일 수신 여부, 문자 수신 여부</li>
+            </ul>
+            <p>개인정보의 보유 및 이용기간</p>
+            <p>개인정보는 회원가입을 하는 시점부터 서비스를 제공하는 기간 동안에만 제한적으로 이용하고 있습니다.</p>
+            
+                <input type="checkbox" name="privacy_agreement" value="agree" required>
+                개인정보 수집 및 이용에 동의합니다.
+            
+            
+                <input type="checkbox" name="privacy_agreement" value="agree" required>
+                개인정보 수집 및 이용에 동의하지 않습니다.
+            </th>
+
+         <div style="text-align: center;">
+        <button type="button">이전</button>
+        <button type="submit"><a href='idpassward2.htm'>다음</a></button>
+         </div>
+    </form>
+</body>
+</html>
